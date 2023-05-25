@@ -214,6 +214,15 @@ div.scrollmenu {
   background-color: var(--ocean);
 }
 
+.hero-background {
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/people-office.jpg");
+  outline: 2px solid red;
+}
+
 .services {
   padding: 120px 0;
 }
