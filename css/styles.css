@@ -172,6 +172,15 @@ div.scrollmenu {
 .hero {
   background-color: var(--navy-blue);
   padding: 188px 0;
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 .hero-header {
   max-width: 496px;
@@ -215,12 +224,14 @@ div.scrollmenu {
 }
 
 .hero-background {
-  max-width: 1440px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./images/people-office.jpg");
-  outline: 2px solid red;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
 }
 
 .services {
