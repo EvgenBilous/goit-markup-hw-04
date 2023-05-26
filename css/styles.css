@@ -42,6 +42,12 @@ img {
 .soc-items {
   width: 44px;
   height: 44px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 50%;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .studio-soc-link {
@@ -52,12 +58,15 @@ img {
   padding: 0px;
   width: 40px;
   height: 40px;
-  line-height: 40px;
+  line-height: 100%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
-
+.studio-soc-link:hover,
+.studio-soc-link:focus {
+  background-color: #404bbf;
+}
 .soc-icon {
   fill: var(--white);
   display: flex;
@@ -550,4 +559,7 @@ div.scrollmenu {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.soc-media-footer-title {
 }
