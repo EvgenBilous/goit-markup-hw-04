@@ -640,7 +640,6 @@ div.scrollmenu {
   align-items: center;
   justify-content: center;
   color: var(--light-slate);
-  display: inline-flex;
 }
 
 .customers-link:hover,
