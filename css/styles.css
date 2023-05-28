@@ -41,6 +41,7 @@ img {
   justify-content: center;
   gap: 24px;
 }
+
 .soc-items {
   width: 44px;
   height: 44px;
@@ -610,7 +611,6 @@ div.scrollmenu {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
-  margin-bottom: 72px;
   gap: 24px;
   width: calc((100% - 120px) / 6);
   justify-content: center;
@@ -657,6 +657,12 @@ div.scrollmenu {
 }
 .company-soc-links {
   display: flex;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 .footer-soc-link {
   display: flex;
