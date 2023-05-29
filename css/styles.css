@@ -611,11 +611,7 @@ div.scrollmenu {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
-  gap: 24px;
-  width: calc((100% - 120px) / 6);
   justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 .customers-section {
