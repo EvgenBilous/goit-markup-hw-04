@@ -607,7 +607,7 @@ div.scrollmenu {
   padding-bottom: 120px;
 }
 .header-customers {
-  display: flex;
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
